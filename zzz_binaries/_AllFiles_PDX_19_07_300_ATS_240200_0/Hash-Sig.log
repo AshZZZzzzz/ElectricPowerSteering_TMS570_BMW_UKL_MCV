@@ -1,0 +1,17 @@
+Hash-Signature log
+created: 11/19/16 08:58:48
+
+    - reading SGBM-identifier from hash-file:
+    - Found SWE: swfl_0000508c_160_013_013
+    - Writing signature to C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508c_160_013_013.s19
+    - SWE_SIGNATURE_ADDRESS: Set signature address to: 1FDCC
+    - SIGNATURE_STATUS: Create a new signature table
+    - Function CSignTable::processData() command: SIGNATURE_BYTE_ORDER: MOTOROLA
+    - Function CSignTable::processData() command: SIGNATURE_HASH_MODE: SHA256
+    - Function CSignTable::processData() command: SIGNATURE_KEY_LENGTH: 2048
+    - Function CSignTable::processData() command: SIGNATURE_MODE: rsa
+    - Function CSignTable::processData() command: SIGNATURE_NUMBER_BLOCKS: 3
+    - Function CCBlockTable::processData() command: BLOCK_NUMBER: 1
+    - Read data block [10000 - 1FFDF] from file: C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508c_160_013_013.s19
+    - Create CRC-32 entry: ;$CHECKSUM CRC32 75A6EC93  T
+    - Create output file: C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508c_160_013_013.msr

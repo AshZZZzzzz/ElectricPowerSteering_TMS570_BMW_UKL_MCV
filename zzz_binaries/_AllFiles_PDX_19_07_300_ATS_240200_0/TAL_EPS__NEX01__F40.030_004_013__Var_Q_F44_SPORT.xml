@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tal xmlns="http://bmw.com/2005/psdz.data.tal" schemaVersion="4.9.0" status="Executable">
+    <ExecProperties supportsParallelMostFlash="false"/>
+    <talLine id="tl_2" status="Executable" baseVariant="EPS" diagAddress="30">
+        <swDeploy status="Executable">
+            <swDeployTA status="Executable">
+                <sgbmid>
+                    <processClass>SWFL</processClass>
+                    <id>0000508b</id>
+                    <mainVersion>009</mainVersion>
+                    <subVersion>009</subVersion>
+                    <patchVersion>013</patchVersion>
+                </sgbmid>
+            </swDeployTA>
+            <swDeployTA status="Executable">
+                <sgbmid>
+                    <processClass>SWFL</processClass>
+                    <id>0000508c</id>
+                    <mainVersion>160</mainVersion>
+                    <subVersion>013</subVersion>
+                    <patchVersion>013</patchVersion>
+                </sgbmid>
+            </swDeployTA>
+            <swDeployTA status="Executable">
+                <sgbmid>
+                    <processClass>SWFL</processClass>
+                    <id>0000508d</id>
+                    <mainVersion>033</mainVersion>
+                    <subVersion>021</subVersion>
+                    <patchVersion>012</patchVersion>
+                </sgbmid>
+            </swDeployTA>
+        </swDeploy>
+    </talLine>
+    <talLine id="tl_5" status="Executable" baseVariant="EPS" diagAddress="30">
+        <cdDeploy status="Executable">
+            <cdDeployTA status="Executable">
+                <sgbmid>
+                    <processClass>CAFD</processClass>
+                    <id>0000123C</id>
+                    <mainVersion>002</mainVersion>
+                    <subVersion>027</subVersion>
+                    <patchVersion>000</patchVersion>
+                </sgbmid>
+            </cdDeployTA>
+        </cdDeploy>
+    </talLine>
+    <talLine id="tl_6" status="Executable" baseVariant="EPS" diagAddress="30">
+        <blFlash status="Executable">
+            <blFlashTA status="Executable">
+                <sgbmid>
+                    <processClass>BTLD</processClass>
+                    <id>0000511c</id>
+                    <mainVersion>006</mainVersion>
+                    <subVersion>001</subVersion>
+                    <patchVersion>000</patchVersion>
+                </sgbmid>
+            </blFlashTA>
+        </blFlash>
+    </talLine>
+    <executionTime actualEndTime="0" actualStartTime="0" plannedEndTime="0" plannedStartTime="0"/>
+    <installedECUList_Ist/>
+    <installedECUList_Soll/>
+</tal>

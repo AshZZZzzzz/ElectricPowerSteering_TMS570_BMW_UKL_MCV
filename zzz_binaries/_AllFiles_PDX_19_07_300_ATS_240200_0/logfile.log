@@ -1,0 +1,43 @@
+    - Starting Compression of:
+    - C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508c_160_013_013.msr
+    - Compressor: NRV
+    - CompressLevel (1-10): 6 (Default: 6))
+    - Parsing input file.
+    - Setting created by info to SWE created by SWE-Generator 3.8.0 with config-file SweGen_768_OBD_3_SWE2.cfg.
+    - Setting process class to swfl.
+    - Setting identifier to 0000508c.
+    - Setting version to 160_013_013.
+    - Setting description table start address to 1FDC4.
+    - Setting description table signature address to 1FDCC.
+    - Setting development info filed to 1FED0.
+    - Setting description table end address to 1FEDE.
+    - Setting carb mode entry to C0E2FF22.
+    - Setting checksum to CRC32 75A6EC93.
+    - Setting srec format to S3.
+    - Parsing compression entries.
+    - SIGNATURE_STATUS: Create a new signature table
+    - Function CSignTable::processData() command: SIGNATURE_BYTE_ORDER: MOTOROLA
+    - Function CSignTable::processData() command: SIGNATURE_HASH_MODE: SHA256
+    - Function CSignTable::processData() command: SIGNATURE_KEY_LENGTH: 2048
+    - Function CSignTable::processData() command: SIGNATURE_MODE: rsa
+    - Function CSignTable::processData() command: SIGNATURE_NUMBER_BLOCKS: 3
+    - Reading in data blocks.
+    - Read data block [10000 - 1FFDF] from file: C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508c_160_013_013.msr
+    - Compressing/Converting file.
+    - Starting compression.
+    - Converting file.
+    - Creating XML-Header.
+    - Creating descriptions
+    - Creating admin data
+    - Creating sdgs
+    - Creating flash blocks
+    - Writing XML-Header:
+    - C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508c_160_013_013.xml
+    - Function CKonverterFileConfigurator::Write(): Create output file:
+    - C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508c_160_013_013.bin
+    - Creating zipfile:
+    - C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508c_160_013_013.bsw
+    - Adding file swfl_0000508c_160_013_013.xml to zip.
+    - Adding File swfl_0000508c_160_013_013.bin to zip.
+    - Closing zipfile: 
+    - C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508c_160_013_013.bsw

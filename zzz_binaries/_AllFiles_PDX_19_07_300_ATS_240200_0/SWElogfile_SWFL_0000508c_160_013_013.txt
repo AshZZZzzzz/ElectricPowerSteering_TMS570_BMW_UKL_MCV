@@ -1,0 +1,26 @@
+  45 - Command Open: output type SWFL
+  48 - Command SET_SREC_FORMAT: Set output file format Motorola SRec with 32 Bit address range
+  48 - Command SET_SREC_FORMAT: 20 (hex) bytes per line
+  54 - Set identifier to SWFL_0000508C_160_013_013
+  57 - Set development info field: SWE2SWEDEVINFO
+  68 - Read data block [10000 - 1FDC3] from file: FLASH_BMW_REL_UKL_19_07_I300_160_A7_240200_MERGED_MERGETC.HEX
+  69 - Read data block [1FDC4 - 1FDCB] from file: FLASH_BMW_REL_UKL_19_07_I300_160_A7_240200_MERGED_MERGETC.HEX
+  70 - Read data block [1FDCC - 1FECF] from file: FLASH_BMW_REL_UKL_19_07_I300_160_A7_240200_MERGED_MERGETC.HEX
+  71 - Read data block [1FED0 - 1FFCF] from file: FLASH_BMW_REL_UKL_19_07_I300_160_A7_240200_MERGED_MERGETC.HEX
+  72 - Read data block [1FFD0 - 1FFDF] from file: FLASH_BMW_REL_UKL_19_07_I300_160_A7_240200_MERGED_MERGETC.HEX
+  89 - Start new checksum table
+  90 - Create checksum table entry [010000-01FDA7]
+  92 - Finish checksum table
+  94 - Write checksum C0E2FF22 into memory at address 1FFD0
+  97 - Command CHECKSUM_TABLE_TO_CARB: Setting entry to: $CARB_MODE_9_CVN C0E2FF22 8
+  98 - Write checksum C0E2FF22 into memory at address 1FDA8
+  98 - Write checksum table to memory at address 1FDAC
+  86 - Create identifier in description table at address 01FDC4
+ 104 - Sorting 5 memory blocks in ascending order
+  74 - create output block [10000 1FFDF] from 5 input blocks with NOCOMPRESS
+ 104 - Create CRC-32 entry: ;$CHECKSUM CRC32 98181D4B  A
+ 104 - Create output file: C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508c_160_013_013.s19
+ 104 - SHA256 Hash value over signature blocks: B864FD191DEB619BB69086104B857AB9835513BFE7FF7DC69792D2AEF2FB3CBD
+  83 - Command CREATE_HASH_FILE: creating hash file swfl_0000508c_160_013_013.xml.
+ 104 - Command CLOSE: close input and output files
+ 105 - CONFIG FILE FINISHED

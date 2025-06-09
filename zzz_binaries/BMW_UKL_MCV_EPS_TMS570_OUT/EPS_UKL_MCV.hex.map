@@ -1,0 +1,72 @@
+********************************************************************************
+TMS470 Hex Converter                                                      v4.9.2
+********************************************************************************
+
+INPUT FILE NAME: <EPS_UKL_MCV.out>
+OUTPUT FORMAT:   Intel
+
+PHYSICAL MEMORY PARAMETERS
+   Default data width   :   8
+   Default memory width :   8
+   Default output width :   8
+
+
+OUTPUT TRANSLATION MAP
+--------------------------------------------------------------------------------
+00000000..ffffffff  Page=0  Memory Width=8  ROM Width=8
+--------------------------------------------------------------------------------
+   OUTPUT FILES: EPS_UKL_MCV.hex [b0..b7]
+
+   CONTENTS: 00008000..000092b7   EPS_UKL_MCV.out(.TunPer0)
+             000092b8..0000a56f   EPS_UKL_MCV.out(.TunPer1)
+             0000a570..0000b827   EPS_UKL_MCV.out(.TunPer2)
+             0000b828..0000cadf   EPS_UKL_MCV.out(.TunPer3)
+             0000cae0..0000dd97   EPS_UKL_MCV.out(.TunPer4)
+             0000dd98..0000f04f   EPS_UKL_MCV.out(.TunPer5)
+             0000f050..0000fdb7   EPS_UKL_MCV.out($fill000)
+             0000fdb8..0000fdbf   EPS_UKL_MCV.out($fill001)
+             0000fdc0..0000fdc3   EPS_UKL_MCV.out(.Cal2VerNum)
+             0000fdc4..0000ffcf   EPS_UKL_MCV.out(.SWE3DESC)
+             0000ffd0..0000ffff   EPS_UKL_MCV.out(.SWE3STAT)
+             00010000..00011b95   EPS_UKL_MCV.out(.FlashCalSeg)
+             00011b96..00011b97   EPS_UKL_MCV.out($fill002)
+             00011b98..00012e9b   EPS_UKL_MCV.out(.TunSet0)
+             00012e9c..0001419f   EPS_UKL_MCV.out(.TunSet1)
+             000141a0..000154a3   EPS_UKL_MCV.out(.TunSet2)
+             000154a4..000167a7   EPS_UKL_MCV.out(.TunSet3)
+             000167a8..00017aab   EPS_UKL_MCV.out(.TunSet4)
+             00017aac..00018daf   EPS_UKL_MCV.out(.TunSet5)
+             00018db0..0001a0b3   EPS_UKL_MCV.out(.TunSet6)
+             0001a0b4..0001b3b7   EPS_UKL_MCV.out(.TunSet7)
+             0001b3b8..0001fda7   EPS_UKL_MCV.out($fill003)
+             0001fda8..0001fdb7   EPS_UKL_MCV.out(.Cal1CvnDefTbl)
+             0001fdb8..0001fdbf   EPS_UKL_MCV.out($fill004)
+             0001fdc0..0001fdc3   EPS_UKL_MCV.out(.Cal1VerNum)
+             0001fdc4..0001ffcf   EPS_UKL_MCV.out(.SWE2DESC)
+             0001ffd0..0001ffff   EPS_UKL_MCV.out(.SWE2STAT)
+             00040000..00042d83   EPS_UKL_MCV.out(.osconfig)
+             00042d84..000a21f9   EPS_UKL_MCV.out(.text)
+             000a21fa..000a21ff   EPS_UKL_MCV.out($fill005)
+             000a2200..000ac620   EPS_UKL_MCV.out(.const)
+             000ac621..000ac623   EPS_UKL_MCV.out($fill006)
+             000ac624..000b0e67   EPS_UKL_MCV.out(.oscode)
+             000b0e68..000b4e71   EPS_UKL_MCV.out(.FlashCal2Seg)
+             000b4e72..000b4e73   EPS_UKL_MCV.out($fill007)
+             000b4e74..000b6edd   EPS_UKL_MCV.out(.osconst)
+             000b6ede..000b6edf   EPS_UKL_MCV.out($fill008)
+             000b6ee0..000b7063   EPS_UKL_MCV.out(.osvtable)
+             000b7064..000b7067   EPS_UKL_MCV.out($fill009)
+             000b7068..000b76b3   EPS_UKL_MCV.out(.cinit)
+             000b76b4..000bfbc3   EPS_UKL_MCV.out($fill010)
+             000bfbc4..000bfbc7   EPS_UKL_MCV.out(.osresetvect)
+             000bfbc8..000bfbe3   EPS_UKL_MCV.out(.osarmvect)
+             000bfbe4..000bfbe7   EPS_UKL_MCV.out(.fiqarmvect)
+             000bfbe8..000bfd8f   EPS_UKL_MCV.out($fill011)
+             000bfd90..000bfdb7   EPS_UKL_MCV.out(.AppCvnDefTbl)
+             000bfdb8..000bfdbf   EPS_UKL_MCV.out($fill012)
+             000bfdc0..000bfdc3   EPS_UKL_MCV.out(.AppCalVerVal)
+             000bfdc4..000bffcf   EPS_UKL_MCV.out(.SWE1DESC)
+             000bffd0..000bffff   EPS_UKL_MCV.out(.SWE1STAT)
+             000c0000..001fffff   EPS_UKL_MCV.out($fill013)
+             f0401000..f0403fff   EPS_UKL_MCV.out(.ecc0)
+             f0408000..f043ffff   EPS_UKL_MCV.out(.ecc1)

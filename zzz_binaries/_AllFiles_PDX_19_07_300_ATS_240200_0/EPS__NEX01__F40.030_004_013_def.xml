@@ -1,0 +1,44 @@
+<PDXContainerDefinition xmlns="http://bmw.com/2010/esys.data.pdxcontainerdefinition">
+       <PDXTemplate>C:\Users\rz4prm\Desktop\19-07-300_240200\INPUTS\PT01_template.003_000_194.pdx</PDXTemplate>
+       <BRVList>
+               <BRV>S18A</BRV>
+       </BRVList>
+       <ConfigList>
+               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\sweseq_0000511c.xml.006_001_000</File>
+       </ConfigList>
+       <ECUVariantList>
+               <ECUVariant name="EPS_NEX01_VARK_ISKRA_EV">
+                       <BaseVariant>EPS</BaseVariant>
+                       <SWEList>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\cafd_0000123c.caf.002_027_000</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\btld_0000511c_006_001_000.bsw</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508b_009_009_013.bsw</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508c_160_013_013.bsw</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508d_030_021_012.bsw</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508d_032_021_012.bsw</File>
+                       </SWEList>
+               </ECUVariant>
+               <ECUVariant name="EPS_NEX01_VARM_ISKRA_EV">
+                       <BaseVariant>EPS</BaseVariant>
+                       <SWEList>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\cafd_0000123c.caf.002_027_000</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\btld_0000511c_006_001_000.bsw</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508b_009_009_013.bsw</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508c_160_013_013.bsw</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508d_030_021_012.bsw</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508d_032_021_012.bsw</File>
+                       </SWEList>
+               </ECUVariant>
+               <ECUVariant name="EPS_NEX01_VARQ_ISKRA_EV">
+                       <BaseVariant>EPS</BaseVariant>
+                       <SWEList>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\cafd_0000123c.caf.002_027_000</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\btld_0000511c_006_001_000.bsw</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508b_009_009_013.bsw</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508c_160_013_013.bsw</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508d_031_021_012.bsw</File>
+                               <File>C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508d_033_021_012.bsw</File>
+                       </SWEList>
+               </ECUVariant>
+       </ECUVariantList>
+</PDXContainerDefinition>

@@ -1,0 +1,36 @@
+  45 - Command Open: output type SWFL
+  48 - Command SET_SREC_FORMAT: Set output file format Motorola SRec with 32 Bit address range
+  48 - Command SET_SREC_FORMAT: 20 (hex) bytes per line
+  54 - Set identifier to SWFL_0000508B_009_009_013
+  57 - Set development info field: SWE1SWEDEVINFO
+  68 - Read data block [40000 - 5FFFF] from file: FLASH_BMW_REL_UKL_19_07_I300_160_A7_240200_MERGED_MERGETC.HEX
+  69 - Read data block [60000 - 7FFFF] from file: FLASH_BMW_REL_UKL_19_07_I300_160_A7_240200_MERGED_MERGETC.HEX
+  70 - Read data block [80000 - 9FFFF] from file: FLASH_BMW_REL_UKL_19_07_I300_160_A7_240200_MERGED_MERGETC.HEX
+  71 - Read data block [A0000 - BFDC3] from file: FLASH_BMW_REL_UKL_19_07_I300_160_A7_240200_MERGED_MERGETC.HEX
+  72 - Read data block [BFDC4 - BFDCB] from file: FLASH_BMW_REL_UKL_19_07_I300_160_A7_240200_MERGED_MERGETC.HEX
+  73 - Read data block [BFDCC - BFECF] from file: FLASH_BMW_REL_UKL_19_07_I300_160_A7_240200_MERGED_MERGETC.HEX
+  74 - Read data block [BFED0 - BFFCF] from file: FLASH_BMW_REL_UKL_19_07_I300_160_A7_240200_MERGED_MERGETC.HEX
+  75 - Read data block [BFFD0 - BFFDF] from file: FLASH_BMW_REL_UKL_19_07_I300_160_A7_240200_MERGED_MERGETC.HEX
+  95 - Start new checksum table
+  96 - Create checksum table entry [040000-05FFFF]
+  97 - Create checksum table entry [060000-07FFFF]
+  98 - Create checksum table entry [080000-09FFFF]
+  99 - Create checksum table entry [0A0000-0BFD8F]
+ 101 - Finish checksum table
+ 103 - Write checksum 8857E19C into memory at address BFFD0
+ 106 - Command CHECKSUM_TABLE_TO_CARB: Setting entry to: $CARB_MODE_9_CVN 8857E19C W
+ 107 - Write checksum 8857E19C into memory at address BFD90
+ 107 - Write checksum table to memory at address BFD94
+  92 - Create identifier in description table at address 0BFDC4
+ 114 - Sorting 8 memory blocks in ascending order
+    - Output blocks [40000 5FFFF], [60000 7FFFF], [80000 9FFFF], [A0000 BFFDF]  can be merged to one output block [40000 BFFDF]
+  77 - create output block [40000 5FFFF] from 1 input blocks with NOCOMPRESS
+  78 - create output block [60000 7FFFF] from 1 input blocks with NOCOMPRESS
+  79 - create output block [80000 9FFFF] from 1 input blocks with NOCOMPRESS
+  80 - create output block [A0000 BFFDF] from 5 input blocks with NOCOMPRESS
+ 114 - Create CRC-32 entry: ;$CHECKSUM CRC32 D8BD35C4  4
+ 114 - Create output file: C:\Users\rz4prm\Desktop\19-07-300_240200\swfl_0000508b_009_009_013.s19
+ 114 - SHA256 Hash value over signature blocks: 0C29BCB1B775515B0CFFE5367A800037AE8A489D0BD45F9BA856EBA56FC1DC6E
+  89 - Command CREATE_HASH_FILE: creating hash file swfl_0000508b_009_009_013.xml.
+ 114 - Command CLOSE: close input and output files
+ 115 - CONFIG FILE FINISHED

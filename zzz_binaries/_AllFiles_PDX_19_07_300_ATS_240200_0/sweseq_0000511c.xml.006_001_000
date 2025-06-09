@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SWERBD xmlns="http://bmw.com/2005/psdz.data.sweseq">
+    <ecuDependencies bootloader_id="0000511c">
+        <ecu>
+            <baseVariantName name="EPS"/>
+            <diagnosticAddress physicalOffset="48"/>
+        </ecu>
+        <preconditions>
+            <id>0000508b</id>
+        </preconditions>
+        <dependors>
+            <id>0000508c</id>
+            <id>0000508d</id>
+        </dependors>
+    </ecuDependencies>
+</SWERBD>
